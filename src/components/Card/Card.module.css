@@ -1,0 +1,65 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+  }
+  
+  .wrapper {
+    width: 160px;
+  }
+  
+  .card {
+    position: relative;
+    width: 160px;
+    height: 205px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .banner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background-color: #fff; /* Use a color instead of variable */
+    display: flex;
+    align-items: center;
+    padding: 6px;
+  }
+  
+  .pill {
+    font-size: 12px;
+    background-color: black; /* Use a color instead of variable */
+    color: white;
+    width: max-content;
+    padding: 6px;
+    border-radius: 10px;
+  }
+  
+  .titleWrapper {
+    display: flex;align-items: center;
+    justify-content: center;
+    margin-top: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    color: white;
+  }
+  
+  .chip {
+    background-color: black; /* Use a color instead of variable */
+    color: white;
+  }
+
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
